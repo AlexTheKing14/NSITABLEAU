@@ -3,11 +3,9 @@ nom = input("Entrez le nom de l'étudiant : ")
 
 def existeoupas(nom):
     if nom in dico_classe:
-        print("L'élève existe déjà, changement de l'âge")
         age = int(input("Entrez l'âge de l'étudiant : "))
         dico_classe[nom] = age
     else:
-        print("L'élève n'existe pas, ajout de l'élève")
         age = int(input("Entrez l'âge de l'étudiant : "))
         dico_classe[nom] = age
 existeoupas(nom)
