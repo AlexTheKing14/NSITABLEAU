@@ -1,0 +1,5 @@
+Infos = ("Alexandre", 16, 2025, "Maths, NSI, Physique-Chimie")
+print(Infos[0])
+print(Infos[1])
+print(Infos[2])
+print(Infos[3]) 
